@@ -70,11 +70,24 @@ https://app.powerbi.com/links/HMCxUmiFHq?ctid=5cdc5b43-d7be-4caa-8173-729e3b0a62
 ---
 
 ## 📂 Repository Structure
-data/ → Raw dataset
-sql/ → SQL queries for exploration, cleaning, and analysis
-powerbi/ → Power BI dashboard (.pbix)
-docs/ → Project report and dashboard images
-README.md
+Netflix_SQL_PowerBI_Project/
+│
+├── data/
+│ └── netflix_titles.csv # Raw dataset
+│
+├── sql/
+│ ├── 01_data_exploration.sql # Initial data exploration queries
+│ ├── 02_data_cleaning.sql # Data cleaning & transformations
+│ └── 03_analysis_queries.sql # Analytical queries used for insights
+│
+├── powerbi/
+│ └── Netflix_Content_Analysis.pbix # Power BI dashboard file
+│
+├── docs/
+│ ├── Netflix_Content_Analysis.pdf # Final project report
+│ └── dashboard_images/ # Dashboard screenshots
+│
+└── README.md # Project overview & documentation
 
 ---
 
@@ -91,3 +104,4 @@ Netflix Movies and TV Shows dataset from Kaggle.
 ## 👤 Author
 
 **Sanjay Kandimalla**
+
