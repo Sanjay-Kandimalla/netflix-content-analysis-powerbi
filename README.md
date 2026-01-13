@@ -70,6 +70,7 @@ https://app.powerbi.com/links/HMCxUmiFHq?ctid=5cdc5b43-d7be-4caa-8173-729e3b0a62
 ---
 
 ## 📂 Repository Structure
+```text
 Netflix_SQL_PowerBI_Project/
 │
 ├── data/
@@ -104,4 +105,5 @@ Netflix Movies and TV Shows dataset from Kaggle.
 ## 👤 Author
 
 **Sanjay Kandimalla**
+
 
