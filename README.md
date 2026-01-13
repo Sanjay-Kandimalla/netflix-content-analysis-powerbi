@@ -43,65 +43,38 @@ https://app.powerbi.com/links/HMCxUmiFHq?ctid=5cdc5b43-d7be-4caa-8173-729e3b0a62
 
 ---
 
-## 📈 Key Insights
-- Netflix content grew rapidly after 2015, peaking around 2019.
-- Movies account for approximately 70% of Netflix’s catalog.
-- Most TV shows have 1–2 seasons, reflecting a limited-series strategy.
-- The United States leads in content production, followed by India and the UK.
+## 🖼 Dashboard Screenshots
 
----
+### Netflix Content Overview
+<img width="940" height="545" alt="image" src="https://github.com/user-attachments/assets/4cf54329-caf0-4a9f-b696-f7c4ab5ddd76" />
 
-## 📂 Repository Structure
-# Netflix Content Analysis using SQL & Power BI
 
-## 📌 Project Overview
-This project analyzes Netflix’s Movies and TV Shows catalog using SQL for data preparation and Power BI for interactive visualization. The goal is to uncover content growth trends, content composition, audience focus, and global distribution patterns.
 
----
+### Content Characteristics & Trends
+<img width="940" height="546" alt="image" src="https://github.com/user-attachments/assets/4cdeb204-2a77-4bed-beab-5e4ecd139217" />
 
-## 🛠 Tools & Technologies
-- SQL (PostgreSQL)
-- Power BI
-- DAX
-- Data Modeling
-- Data Visualization
 
----
 
-## 📊 Dashboards
+### Global Content Distribution
+<img width="801" height="463" alt="image" src="https://github.com/user-attachments/assets/4187ce51-8137-4373-9769-68b0edcb7b77" />
 
-### 1️⃣ Netflix Content Overview
-- High-level KPIs: Total Titles, Movies, TV Shows
-- Content growth trend over time
-- Movies vs TV Shows distribution
-- Top Movie Genres
 
-### 2️⃣ Content Characteristics & Trends
-- Titles by release year and type
-- Rating distribution by content type
-- TV seasons analysis
-- Movie duration analysis
-
-### 3️⃣ Global Content Distribution
-- World map of Netflix titles
-- Top countries by number of titles
-- Interactive slicers for content type and release year
 
 ---
 
 ## 📈 Key Insights
-- Netflix content grew rapidly after 2015, peaking around 2019.
-- Movies account for approximately 70% of Netflix’s catalog.
-- Most TV shows have 1–2 seasons, reflecting a limited-series strategy.
-- The United States leads in content production, followed by India and the UK.
-
+- Netflix content growth accelerated significantly after **2015**, peaking around **2019–2020**.
+- **Movies dominate** the catalog, accounting for approximately **70%** of total titles.
+- The majority of TV shows have **1–2 seasons**, indicating a preference for limited-series content.
+- The **United States** leads Netflix content production, followed by **India** and the **United Kingdom**.
 ---
 
 ## 📂 Repository Structure
-sql/ → SQL queries for exploration and analysis
-powerbi/ → Power BI dashboard file (.pbix)
-docs/ → Project report with insights
-data/ → Raw dataset (optional)
+data/ → Raw dataset
+sql/ → SQL queries for exploration, cleaning, and analysis
+powerbi/ → Power BI dashboard (.pbix)
+docs/ → Project report and dashboard images
+README.md
 
 ---
 
@@ -116,4 +89,5 @@ Netflix Movies and TV Shows dataset from Kaggle.
 ---
 
 ## 👤 Author
+
 **Sanjay Kandimalla**
